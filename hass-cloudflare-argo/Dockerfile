@@ -25,7 +25,7 @@ RUN \
         echo 'NOT VALID BUILD'; exit 1; \
 	fi \
     && mv cloudflared /usr/local/bin/cloudflared \
-    && chmod a+x /usr/local/bin/cloudflared
+    && chmod rwx /usr/local/bin/cloudflared
 
 
 COPY rootfs /
