@@ -26,6 +26,7 @@ RUN \
 	fi \
     && mv cloudflared /usr/local/bin/cloudflared \
     && chmod a=rwx /usr/local/bin/cloudflared
+    && chmod a=rwx /etc/cont-init.d/cloudflared.sh
 
 
 COPY rootfs /
