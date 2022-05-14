@@ -25,7 +25,7 @@ RUN \
         echo 'NOT VALID BUILD'; exit 1; \
 	fi \
     && mv cloudflared /usr/local/bin/cloudflared \
-    && chmod a=rwx /usr/local/bin/cloudflared
+    && chmod a=rwx /usr/local/bin/cloudflared \
     && chmod a=rwx /etc/cont-init.d/cloudflared.sh
 
 
