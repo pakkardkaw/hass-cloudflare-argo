@@ -24,4 +24,4 @@ options:
 schema:
   hostname: str
   uuid: str
-init: false
+init: true
